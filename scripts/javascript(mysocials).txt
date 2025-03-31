@@ -1,0 +1,39 @@
+window.onload = function () {
+  alert("Welcome to MySocials!");
+};
+// script.js
+
+// Function to open app links
+function openApp(url) {
+  window.open(url, '_blank'); // Opens the link in a new tab
+}
+
+// Add event listeners to the app icons
+document.getElementById('instagramIcon').addEventListener('click', () => {
+  openApp('https://instagram.com/yourprofile');
+});
+
+document.getElementById('youtubeIcon').addEventListener('click', () => {
+  openApp('https://youtube.com/yourprofile');
+});
+
+document.getElementById('twitterIcon').addEventListener('click', () => {
+  openApp('https://twitter.com/yourprofile');
+});
+
+document.getElementById('linkedinIcon').addEventListener('click', () => {
+  openApp('https://linkedin.com/in/yourprofile');
+});
+
+
+const links = document.querySelectorAll(".link");
+
+links.forEach(link => {
+  link.addEventListener("mouseover", () => {
+    link.style.color = "black"; 
+  });
+
+  link.addEventListener("mouseout", () => {
+    link.style.color = "black"; 
+  });
+});
