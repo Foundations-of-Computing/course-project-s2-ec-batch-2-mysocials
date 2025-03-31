@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> My socials </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://assets.onecompiler.app/43b77p6cv/43b77r6vp/MySocials.jpg" alt="mysocials" class="profile-pic"width="500"height="400">
+    <h1> mysocials </h1>
+    <p>Welcome to mysocials ! 🚀</p>
+    <p>   Your one-stop hub for easy access to all your favorite platforms!
+       Perfect for influencers, professionals, and social butterflies alike!
+</p>
+    <div class="links">
+      <div style="display: flex;
+height: 1.5rem; align-items: center; gap: 0.25rem; margin-bottom: 1.5rem;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/X_logo.jpg"
+height="24"
+>
+      <a href="https://x.com/yourprofile" target="_blank" class="link">X</a>
+</div>
+      <div style="display: flex;
+height: 1.5rem; align-items: center; gap: 0.25rem; margin-bottom: 1.5rem;">
+<img src="https://img.freepik.com/premium-vector/instagram-vector-logo-icon-social-media-logotype_901408-392.jpg?semt=ais_hybrid"
+height="24">
+      <a href="https://www.instagram.com" onclick="showMessage('Instagram') "target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+</div>
+     <div style="display: flex;
+height: 1.5rem; align-items: center; gap: 0.25rem; margin-bottom: 1.5rem;">
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="24px">
+      <a href="https://github.com/yourprofile" target="_blank" class="link">GitHub</a>
+</div>
+<div style="display: flex;
+height: 1.5rem; align-items: center; gap: 0.25rem; margin-bottom: 1.5rem;">
+<img src="https://banner2.cleanpng.com/20180717/ls/7a791a7183478843b347a5d17fc79e13.webp" height="24">
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" class="link">LinkedIn</a>
+</div>
+      <div style="display: flex;
+height: 1.5rem; align-items: center; gap: 0.25rem; margin-bottom: 1.5rem;">
+<img src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-512.png" alt="" height="24px">
+      <a href="https://youtube.com/yourprofile" target="_blank">YouTube</a>
+    </div>
+</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
